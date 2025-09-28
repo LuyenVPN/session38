@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "Khong Lam Ma Doi An",
+      "author": "Huan Hoa Hong",
+      "year": 2025,
+      "category": "Cuoc song",
+      "id": 1
+    },
+    {
+      "title": "Mo Day Hup Di",
+      "author": "Tra Bong",
+      "year": 2025,
+      "category": "Chupi",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Cuoc Song Kho Khan",
+      "author": "MkMMM",
+      "year": 2031,
+      "category": "NHK1"
+    }
+  ]
+}
