@@ -39,6 +39,8 @@ const App: React.FC = () => {
     [books]
   );
   const handleDelete = (id: string) => {
+    const ok=window.confirm("Ban co chac chan muon xoa?");
+    if(!ok) return;
     dispatch(getDeleteBook(id));
   };
   const handleSubmit = (data: {

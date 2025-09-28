@@ -9,7 +9,6 @@ import {
 import React, { useEffect, useState } from "react";
 
 import type { Book } from "./types";
-import { getAddBook } from "../store/slices/bookSlice";
 import { useDispatch } from "react-redux";
 
 interface Props {
@@ -53,7 +52,6 @@ const BookForm: React.FC<Props> = ({
       year: Number(year),
       category: category.trim(),
     };
-    // dispatch(getAddBook(newBook));
   };
 
   return (
